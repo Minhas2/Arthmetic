@@ -1,0 +1,182 @@
+/* Header section start */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.header .logo a {
+  text-decoration: none;
+  color: white;
+  font-family: var(--Pacifico);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 16.7px;
+  cursor: pointer;
+
+}
+
+.header .logo a img {
+  width: 100%; /* Makes the image width 100% of its container */
+  max-width: 200px; /* Ensures the image doesn't exceed its original width */
+  height: auto;
+}
+
+.header .nav-links {
+  display: flex;
+}
+
+.header ul {
+  list-style-type: none;
+  display: flex;
+  line-height: 27.5px;
+  gap: 4rem;
+}
+
+.header .links a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.header li {
+  font-family: var(--Inter);
+  font-size: 21.83px;
+  /* font-size: calc(21.83px + 0.5vw); */
+  font-weight: 400;
+  line-height: 26.42px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.header .login {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+
+/* Responsive design start */
+/* @media only screen and (max-width: 624px) {
+  .header .links {
+    display: none;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+    text-align: left;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .header .links li {
+    padding: 0 10vw;
+  }
+
+  .header .links.show {
+    display: flex;
+  }
+
+  .header .nav-links i {
+    display: block;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+} */
+
+/* Header section end */
+
+/* Footer section start */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* padding: 0 5vw; */
+}
+
+.footer .logo img {
+  width: 150px;
+}
+.footer .logo p a {
+  font-family: var(--Inter);
+  font-size: 22.88px;
+  /* font-size: calc(22.88px + 0.1vw); */
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left; 
+  color: white; 
+}
+.footer .logo span {
+  font-family: Inter;
+  font-size: 18.44px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.800000011920929px;
+  text-align: left;
+  color: #8F889A;
+}
+.footer .logo p {
+  font-family: Inter;
+  font-size: 22.69px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: -0.9599999785423279px;
+  text-align: left;
+  }
+.footer .logo .twitter img{
+  width: 24px;  
+}
+
+.offer h4 {
+  margin: 10px 0;
+  font-family: var(--Inter);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 29.7px;
+  letter-spacing: -0.8999999761581421px;
+  text-align: left;
+}
+
+.offer ul {
+  list-style-type: none;
+}
+
+.offer li {
+  font-family: var(--Inter);
+  font-size: 20.45px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.2199999988079071px;
+  text-align: left;
+  color: #8F889A;
+
+}
+
+.footer li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer li .account {
+  font-family: var(--Inter);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 23.76px;
+  letter-spacing: 0.9599999785423279px;
+  text-align: left;
+  
+}
+
+
+
+/* Footer section end */
+
+/* Responsive design end */
